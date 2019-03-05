@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text_numero1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="Numero1:"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="8sp"
+        android:textStyle="bold|italic"
+        tools:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/edit_numero1"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:text="0.0"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_numero2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="Numero2:"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="8sp"
+        android:textStyle="bold|italic"
+        tools:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/edit_numero2"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:text="0.0"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="Resultado:"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="8sp"
+        android:textStyle="bold|italic"
+        tools:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/edit_resultado"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:text="0.0"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_suma"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@android:color/holo_purple"
+        android:onClick="suma"
+        android:text="SUMA"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_resta"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="@android:color/holo_green_dark"
+        android:onClick="resta"
+        android:text="RESTA"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_multiplicacion"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@android:color/holo_purple"
+        android:onClick="multiplicacion"
+        android:text="MULTIPLICACION"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_division"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:background="@android:color/holo_green_dark"
+        android:onClick="division"
+        android:text="DIVISION"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_modulo"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="29dp"
+        android:background="@android:color/holo_purple"
+        android:onClick="modulo"
+        android:text="MODULO"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
